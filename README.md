@@ -1,2 +1,10 @@
-# odin-landing-page
-Landing page project from The Odin Project curriculum
+# Landing Page
+
+This Landing Page project is part of The Odin Project "Foundations" curriculum.
+
+
+## Technologies
+
+* HTML
+* CSS
+    - Flexbox
