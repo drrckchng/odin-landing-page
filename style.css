@@ -39,9 +39,6 @@ ul {
 }
 
 .hero-image {
-    width: 400px;
-    height: 200px;
-    background-color: #7a7e85;
-    text-align: center;
-    color: white;
+    width: 300px;
+    height: 100%;
 }
