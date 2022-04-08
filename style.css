@@ -1,11 +1,16 @@
 body {
+    font-family: "Roboto";
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 1rem;
 }
 
 .header,
@@ -13,6 +18,12 @@ ul {
     height: 80px;
     background: #1F2937;
     color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
 }
 
 .header .left {
@@ -26,6 +37,26 @@ ul {
 
 .hero {
     background: #1F2937;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.sign-up {
+    width: 200px;
+}
+
+.hero-image {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 200px;
 }
 
 .main-text {
@@ -59,10 +90,6 @@ ul {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
-}
-
-.action {
-
 }
 
 .action,
