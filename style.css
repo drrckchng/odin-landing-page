@@ -23,7 +23,7 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 24px;
 }
 
 .header .left {
@@ -37,7 +37,7 @@ ul {
 
 .hero {
     background: #1F2937;
-    padding: 3rem;
+    padding: 72px;
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -47,16 +47,19 @@ ul {
     display: flex;
     flex-direction: column;
     width: 500px;
+    gap: 10px;
+    justify-content: center;
 }
 
 .sign-up {
-    width: 200px;
+    width: 100px;
+    height: 25px;
 }
 
 .hero-image {
-    aspect-ratio: 1/1;
+    aspect-ratio: 4/3;
     object-fit: cover;
-    width: 200px;
+    width: 300px;
 }
 
 .main-text {
@@ -70,9 +73,18 @@ ul {
     color: #E5E7EB;
 }
 
-.hero-image {
-    width: 300px;
-    height: 100%;
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-text {
+    fo
+}
+
+.card-container {
+    display: flex;
 }
 
 .card img {
