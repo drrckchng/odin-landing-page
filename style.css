@@ -8,14 +8,15 @@ ul {
     padding: 0;
 }
 
-.header {
+.header,
+.footer {
     height: 80px;
     background: #1F2937;
+    color: #F9FAF8;
 }
 
 .header .left {
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 .header .right {
@@ -58,4 +59,14 @@ ul {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+}
+
+.action {
+
+}
+
+.action,
+.action button {
+    background: #3882f6;
+    color: #F9FAF8;
 }
