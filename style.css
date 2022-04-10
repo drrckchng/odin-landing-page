@@ -77,19 +77,29 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 120px;
 }
 
 .information-text {
-    fo
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    box-sizing: border-box;
+    margin: 45px;
 }
 
 .card-container {
     display: flex;
+    gap: 30px;
 }
 
 .card img {
     aspect-ratio: 1/1;
     object-fit: cover;
+    width: 200px;
+}
+
+.card-desc {
     width: 200px;
 }
 
