@@ -143,14 +143,27 @@ ul {
     color: #F9FAF8;
 }
 
+.action button {
+    padding: 0px 18px;
+    border-radius: 6px;
+    border-color: white;
+}
+
 .action-wrapper {
     box-sizing: border-box;
+    border-radius: 6px;
     width: 700px;
     padding: 32px 72px;
     display: flex;
+    justify-content: space-between;
 }
 
 .action-wrapper .left {
     display: flex;
     flex-direction: column;
+}
+
+.action-header {
+    font-size: large;
+    font-weight: 800;
 }
