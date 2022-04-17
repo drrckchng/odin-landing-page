@@ -2,6 +2,7 @@
 
 This Landing Page project is part of The Odin Project "Foundations" curriculum.
 
+[Link to website](https://drrckchng.github.io/odin-landing-page/)
 
 ## Technologies
 
