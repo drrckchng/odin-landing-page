@@ -13,6 +13,10 @@ ul {
     gap: 1rem;
 }
 
+button {
+    border: 0;
+}
+
 .header,
 .footer {
     height: 80px;
@@ -52,8 +56,15 @@ ul {
 }
 
 .sign-up {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     height: 25px;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 6px;
 }
 
 .hero-image {
@@ -146,7 +157,7 @@ ul {
 .action button {
     padding: 0px 18px;
     border-radius: 6px;
-    border-color: white;
+    border: 2px solid white;
 }
 
 .action-wrapper {
