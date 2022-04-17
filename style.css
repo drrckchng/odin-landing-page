@@ -112,6 +112,8 @@ button {
 
 .card-desc {
     width: 200px;
+    margin-top: 8px;
+    text-align: center;
 }
 
 .quote {
