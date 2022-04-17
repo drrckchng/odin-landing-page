@@ -17,6 +17,11 @@ button {
     border: 0;
 }
 
+li a {
+    text-decoration: none;
+    color: white;
+}
+
 .header,
 .footer {
     height: 80px;
